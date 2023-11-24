@@ -8,7 +8,7 @@
 }
 
 body {
-  background: #8758ff;
+  background: #3800c5;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,7 +25,7 @@ h1 {
 }
 
 .TodoWrapper {
-  background: #1A1A40;
+  background-color: rgba(43, 12, 122, 0.644);
   margin-top: 5rem;
   padding: 2rem;
   border-radius: 5px;
@@ -63,7 +63,7 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #8758ff;
+  background: #ff2121;
   color: #fff;
   padding: 0.75rem 1rem;
   border-radius: 5px;
@@ -75,12 +75,12 @@ h1 {
 }
 
 .incompleted {
-  color: #fff;
+  color: #ffffff;
   cursor: pointer;
 }
 
 .completed {
-  color: #c5aeff;
+  color: green;
   text-decoration: line-through;
   cursor: pointer;
 }
@@ -89,4 +89,3 @@ h1 {
 .delete-icon {
   cursor: pointer;
 }
- 
